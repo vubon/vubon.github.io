@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 /* Menu modify 
 ===========================================================*/
 .navbar-default{
@@ -8,6 +9,11 @@
 .navbar-default .navbar-nav>li>a:last-child{border-right:none;}
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color:#fff;}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{color:#fff;background:#6633cc;}
+.navbar-brand{
+	font-family: 'Dancing Script', cursive;
+    color: #fff!important;
+    font-size: 45px;
+}
 
 
 /* Top page 
