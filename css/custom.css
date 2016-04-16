@@ -1,9 +1,107 @@
+/* Menu modify 
+===========================================================*/
+.navbar-default{
+	background:#7547D1;
+	border-bottom:5px solid #6633cc;
+}
+.navbar-default .navbar-nav>li>a{color:#fff;border-right:1px solid #ddd;}
+.navbar-default .navbar-nav>li>a:last-child{border-right:none;}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{color:#fff;}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{color:#fff;background:#6633cc;}
+
+
+/* Top page 
+==================================================================== */
 #topPage{
 	min-height:400px;
 	background-color:#6633cc;
 }
-#topPage h2{color:#fff;}
+#topPage h2{
+	color:#fff;
+	padding-top:140px;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 30em;
+	animation: headline2 10s infinite; 
+	margin:0 auto;
+}
+
+@keyframes headline2{ 
+  from { width: 0; } 
+} 
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes headline2 {
+  from { width: 0; } 
+}
+
+/* About us
+==================================================================== */
+
 
 .vubon img{
 	width:70%;
 }
+
+/* Contact us
+==================================================================== */
+#contact{
+	background:url('../images/footer-top.jpg');
+	background-position:center center;
+	background-size:cover;
+	min-height:500px
+}
+.contact_overlly{
+	background-color:rgba(102, 51, 204, 0.24);
+	min-height:500px;
+}
+.btn_contact{padding-top:250px;}
+.btn-default{
+	background:none;
+	border: 2px solid #fff;
+	border-radius:5px;
+	font-size:25px;
+	color:#fff;
+	margin-right:20px;
+
+}
+.btn-default:hover{
+	background:#6633cc;
+	color:#fff;
+	border: 2px solid #6633cc;
+	transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear
+}
+.btn-lg{padding:15px 50px 15px 50px;}
+
+
+
+/* Footer CSS 
+==================================================================== */
+#footer{
+	background:#5b24bb;
+	padding:20px;
+}
+.social h2{color:#fff;margin:20px;}
+.social a i{
+	background: rgba(43, 156, 110, 0.32);
+    border: 2px solid #2B9C6E;
+    color: #fff;
+    padding: 16px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 10px;
+}
+.social a i:hover{
+	background:rgba(102,51,204,0.32);
+	color:#fff;
+	border: 2px solid #6633cc;
+	transition-property: background;
+    transition-duration: 0.5s;
+    transition-timing-function: linear
+}
+
+.copy{color:#fff;margin-top:35px;}
