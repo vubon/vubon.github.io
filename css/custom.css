@@ -37,11 +37,49 @@
 
 /* About us
 ==================================================================== */
-
-
-.vubon img{
-	width:70%;
+#about{padding:40px;}
+.vubon{
+	height: 300px;
+	perspective: 600;
+	position: relative;
+	width: 300px;
 }
+.card {
+  height: 100%;
+  position: absolute;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+  width: 100%;
+}
+.card:hover {
+  transform: rotateY(180deg);
+}
+.card .side {
+  backface-visibility: hidden;
+  height: 95%;
+  position: absolute;
+  width: 95%;
+  border-radius:50%;
+}
+.card .back {
+	background: #eaeaed;
+	color: #0087cc;
+	line-height: 150px;
+	text-align: center;
+	transform: rotateY(180deg);
+}
+.back h2{
+	padding-top:40%;
+}
+.vubon img{
+	width:95%;
+	border:5px solid #6633cc;
+}
+
+blockquote{
+	border-left:8px solid #6633cc;
+}
+
 
 /* Contact us
 ==================================================================== */
