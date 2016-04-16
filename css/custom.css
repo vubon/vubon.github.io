@@ -86,6 +86,11 @@ blockquote{
 	border-left:8px solid #6633cc;
 }
 
+/* Skill set 
+==================================================================== */
+#skill{background: #ECEEF3;padding: 40px;}
+.skillSets{border-left:8px solid #6633cc;}
+
 
 /* Contact us
 ==================================================================== */
