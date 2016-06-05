@@ -13,7 +13,10 @@
 .navbar-default{
 	background:#7547D1;
 	border-bottom:5px solid #6633cc;
+	
 }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {border-color: #6633cc;}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {background-color: #673ab7;}
 .navbar{min-height:70px;}
 .navbar-default .navbar-nav>li>a{color:#fff;border-right:1px solid #ddd;line-height: 34px;}
 .navbar-default .navbar-nav>li>a:last-child{border-right:none;}
@@ -165,6 +168,25 @@ blockquote{
     transition-duration: 0.5s;
     transition-timing-function: linear
 }
+.social_mid a i{
+	background: rgba(43, 156, 110, 1);
+    border: 2px solid #2B9C6E;
+    color: #fff;
+    padding: 16px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 10px;
+}
+.social_mid a i:hover{
+	background:rgba(102,51,204,0.32);
+	color:#fff;
+	border: 2px solid #6633cc;
+	transition-property: background;
+    transition-duration: 0.5s;
+    transition-timing-function: linear
+}
 
 .copy{color:#fff;margin-top:35px;}
 
@@ -177,6 +199,7 @@ blockquote{
 @media only screen and (max-width: 767px) {
 	#topPage h2{width:10em;font-size:30px;}
 	.btn-lg {margin-bottom: 20px;}
+	.container-fluid > .navbar-collapse, .container-fluid > .navbar-header, .container > .navbar-collapse, .container > .navbar-header {margin-bottom: 20px;}
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 	#topPage h2{width:14em;}
